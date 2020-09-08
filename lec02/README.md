@@ -35,6 +35,40 @@ For example, the call `triangle(5)` should give the following output in the cons
 Bonus: extend the `triangle` function with an optional "character parameter"
 such that `triangle(3,"%")` prints the triangles with `%` instead.
 
+## Solution: Parametric triangles
+
+```javascript
+function triangle (number) {
+
+    let sign = "#"
+    let i = 0;
+    while (i < number) {
+      console.log(sign);
+     i = i + 1;
+     sign = sign + "#";
+    }
+    }
+
+    triangle(7)
+```
+
+Bonus solution:
+
+```javascript
+function triangle (number, sign) {
+
+    let i = 0;
+    let output = sign;
+    while (i < number) {
+      console.log(output);
+     i = i + 1;
+     output += sign;
+    }
+    }
+
+    triangle(4, "%")
+```
+
 ## Exercise: The sum of a range
 
 Solve the first exercise "The sum of a range"
