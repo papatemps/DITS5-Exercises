@@ -1,29 +1,32 @@
-Exercise: Distance
-------------------
+# Exercises
+
+## Exercise: Distance
 
 Compose the functional programming methods over arrays to write a
 function `dist` that computes the Euclidian distance
- - from $`(0,...,0)`$ ~ (Origo)
- - to a given point represented as an array
+
+- from $`(0,...,0)`$ ~ (Origo)
+- to a given point represented as an array
 
 For example:
+
 - `dist([3,4])` should give 5 because $`\sqrt{ 3^2 + 4^2 } = 5`$
 - `dist([1,2,2])` should give 3 because $`\sqrt{ 1^2 + 2^2 + 2^2 } = 3`$
 - `dist([])` should give 0 because $`\sqrt{ 0 } = 0`$
 
 (The square root $`\sqrt{~}`$ is called `Math.sqrt` in JS)
 
+## Solution: Distance
 
-Exercise: A vector type
------------------------
+## Exercise: A vector type
 
 Solve the first exercise "A vector type"
-here: https://eloquentjavascript.net/06_object.html#i_zO8FRQBMAy
+here: <https://eloquentjavascript.net/06_object.html#i_zO8FRQBMAy>
 
+## Solution: A vector type
 
+## Exercise: rememberCars
 
-Exercise: rememberCars
-----------------------
 
 Check out the skeleton in [04_exercise_RememberCars/carPage_v2.html](04_exercise_RememberCars/carPage_v2.html)
 
@@ -39,10 +42,9 @@ cars from `localStorage`.
 Register your events via JavaScript (using `addEventListener`) and not
 in the HTML tags.
 
+## Solution: rememberCars
 
-
-Exercise: Nim
--------------
+## Exercise: Nim
 
 Program the game Nim with jQuery:
 
@@ -55,3 +57,5 @@ Adapt [06_jQuery/04_events+json+localstorage/01_eventHandling_MVC.html](06_jQuer
 
 - Your model should contain a `stickcount` and a Boolean `gameover`
 - Start with a dumb computer tactic that, e.g., always removes 2 sticks
+
+## Solution: Nim
