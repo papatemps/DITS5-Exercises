@@ -27,7 +27,6 @@ here: <https://eloquentjavascript.net/06_object.html#i_zO8FRQBMAy>
 
 ## Exercise: rememberCars
 
-
 Check out the skeleton in [04_exercise_RememberCars/carPage_v2.html](04_exercise_RememberCars/carPage_v2.html)
 
 Store car data on the client using `localStorage` in function
