@@ -80,7 +80,7 @@ here: <https://eloquentjavascript.net/04_data.html#i_8ZspxiCEC/>
 function range(start, end)
 {
     let rangeArray = [];
-    for (let index = start; index <= end ; index++) 
+    for (let index = start; index <= end ; index++)
     {
         rangeArray.push(index);
     }
@@ -93,7 +93,7 @@ function sum(arrayOfNumbers)
     console.log("Length: " + arrayOfNumbers.length);
 
     let sumOfNumbers = 0;
-    for (let index = 0; index <= arrayOfNumbers.length -1 ; index++) 
+    for (let index = 0; index <= arrayOfNumbers.length -1 ; index++)
     {
         sumOfNumbers += arrayOfNumbers[index];
     }
