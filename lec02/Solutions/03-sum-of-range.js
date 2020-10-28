@@ -22,6 +22,3 @@ function sum(arrayOfNumbers)
 }
 
 console.log(sum(range(5, 10)));
-
-/* Next, write a sum function that takes an array of numbers and returns the sum of these numbers. 
-Run the example program and see whether it does indeed return 55. */
